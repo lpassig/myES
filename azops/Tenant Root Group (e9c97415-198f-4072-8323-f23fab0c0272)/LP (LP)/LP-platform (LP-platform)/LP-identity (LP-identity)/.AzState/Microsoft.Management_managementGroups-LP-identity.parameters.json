@@ -1,0 +1,28 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/LP-identity",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "LP-identity",
+        "TenantId": "e9c97415-198f-4072-8323-f23fab0c0272",
+        "DisplayName": "LP-identity",
+        "UpdatedTime": "0001-01-01T00:00:00Z",
+        "UpdatedBy": null,
+        "ParentId": "/providers/Microsoft.Management/managementGroups/LP-platform",
+        "ParentName": "LP-platform",
+        "ParentDisplayName": "LP-platform",
+        "Children": null,
+        "properties": {
+          "policyDefinitions": [],
+          "policySetDefinitions": [],
+          "policyAssignments": [],
+          "roleDefinitions": [],
+          "roleAssignments": []
+        }
+      }
+    }
+  }
+}

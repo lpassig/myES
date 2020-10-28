@@ -1,0 +1,36 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/LP-online",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "LP-online",
+        "TenantId": "e9c97415-198f-4072-8323-f23fab0c0272",
+        "DisplayName": "LP-online",
+        "UpdatedTime": "0001-01-01T00:00:00Z",
+        "UpdatedBy": null,
+        "ParentId": "/providers/Microsoft.Management/managementGroups/LP-landingzones",
+        "ParentName": "LP-landingzones",
+        "ParentDisplayName": "LP-landingzones",
+        "Children": [
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/44025cc7-588a-46ec-b579-67083e9155dd",
+            "Name": "44025cc7-588a-46ec-b579-67083e9155dd",
+            "DisplayName": "InternalSub - VS",
+            "Children": null
+          }
+        ],
+        "properties": {
+          "policyDefinitions": [],
+          "policySetDefinitions": [],
+          "policyAssignments": [],
+          "roleDefinitions": [],
+          "roleAssignments": []
+        }
+      }
+    }
+  }
+}
