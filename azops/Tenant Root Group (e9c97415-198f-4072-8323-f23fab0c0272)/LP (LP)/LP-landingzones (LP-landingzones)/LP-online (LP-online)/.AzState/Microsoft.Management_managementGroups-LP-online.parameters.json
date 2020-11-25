@@ -9,8 +9,8 @@
         "Name": "LP-online",
         "TenantId": "e9c97415-198f-4072-8323-f23fab0c0272",
         "DisplayName": "LP-online",
-        "UpdatedTime": "0001-01-01T00:00:00Z",
-        "UpdatedBy": null,
+        "UpdatedTime": "2020-10-28T08:26:44.5782644Z",
+        "UpdatedBy": "c7388829-c7f4-4813-a90f-e457716b4634",
         "ParentId": "/providers/Microsoft.Management/managementGroups/LP-landingzones",
         "ParentName": "LP-landingzones",
         "ParentDisplayName": "LP-landingzones",
@@ -22,14 +22,7 @@
             "DisplayName": "Spoke",
             "Children": null
           }
-        ],
-        "properties": {
-          "policyDefinitions": [],
-          "policySetDefinitions": [],
-          "policyAssignments": [],
-          "roleDefinitions": [],
-          "roleAssignments": []
-        }
+        ]
       }
     }
   }

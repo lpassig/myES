@@ -9,8 +9,8 @@
         "Name": "LP-platform",
         "TenantId": "e9c97415-198f-4072-8323-f23fab0c0272",
         "DisplayName": "LP-platform",
-        "UpdatedTime": "0001-01-01T00:00:00Z",
-        "UpdatedBy": null,
+        "UpdatedTime": "2020-10-28T08:26:16.2150208Z",
+        "UpdatedBy": "c7388829-c7f4-4813-a90f-e457716b4634",
         "ParentId": "/providers/Microsoft.Management/managementGroups/LP",
         "ParentName": "LP",
         "ParentDisplayName": "LP",
@@ -20,30 +20,14 @@
             "Id": "/providers/Microsoft.Management/managementGroups/LP-connectivity",
             "Name": "LP-connectivity",
             "DisplayName": "LP-connectivity",
-            "Children": [
-              {
-                "Type": "/subscriptions",
-                "Id": "/subscriptions/c8a91935-3b55-4726-b4eb-6ee720fc0fac",
-                "Name": "c8a91935-3b55-4726-b4eb-6ee720fc0fac",
-                "DisplayName": "HUB",
-                "Children": null
-              }
-            ]
+            "Children": null
           },
           {
             "Type": "/providers/Microsoft.Management/managementGroups",
             "Id": "/providers/Microsoft.Management/managementGroups/LP-management",
             "Name": "LP-management",
             "DisplayName": "LP-management",
-            "Children": [
-              {
-                "Type": "/subscriptions",
-                "Id": "/subscriptions/04843a72-829a-43b7-90f5-ded62bfa791e",
-                "Name": "04843a72-829a-43b7-90f5-ded62bfa791e",
-                "DisplayName": "Visual Studio Enterprise",
-                "Children": null
-              }
-            ]
+            "Children": null
           },
           {
             "Type": "/providers/Microsoft.Management/managementGroups",
@@ -52,14 +36,7 @@
             "DisplayName": "LP-identity",
             "Children": null
           }
-        ],
-        "properties": {
-          "policyDefinitions": [],
-          "policySetDefinitions": [],
-          "policyAssignments": [],
-          "roleDefinitions": [],
-          "roleAssignments": []
-        }
+        ]
       }
     }
   }
