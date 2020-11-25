@@ -9,8 +9,8 @@
         "Name": "e9c97415-198f-4072-8323-f23fab0c0272",
         "TenantId": "e9c97415-198f-4072-8323-f23fab0c0272",
         "DisplayName": "Tenant Root Group",
-        "UpdatedTime": "0001-01-01T00:00:00Z",
-        "UpdatedBy": null,
+        "UpdatedTime": "2019-08-14T12:20:14.1763948Z",
+        "UpdatedBy": "Tenant Backfill Job",
         "ParentId": null,
         "ParentName": null,
         "ParentDisplayName": null,
@@ -20,97 +20,7 @@
             "Id": "/providers/Microsoft.Management/managementGroups/LP",
             "Name": "LP",
             "DisplayName": "LP",
-            "Children": [
-              {
-                "Type": "/providers/Microsoft.Management/managementGroups",
-                "Id": "/providers/Microsoft.Management/managementGroups/LP-sandboxes",
-                "Name": "LP-sandboxes",
-                "DisplayName": "LP-sandboxes",
-                "Children": null
-              },
-              {
-                "Type": "/providers/Microsoft.Management/managementGroups",
-                "Id": "/providers/Microsoft.Management/managementGroups/LP-decommissioned",
-                "Name": "LP-decommissioned",
-                "DisplayName": "LP-decommissioned",
-                "Children": null
-              },
-              {
-                "Type": "/providers/Microsoft.Management/managementGroups",
-                "Id": "/providers/Microsoft.Management/managementGroups/LP-landingzones",
-                "Name": "LP-landingzones",
-                "DisplayName": "LP-landingzones",
-                "Children": [
-                  {
-                    "Type": "/providers/Microsoft.Management/managementGroups",
-                    "Id": "/providers/Microsoft.Management/managementGroups/LP-online",
-                    "Name": "LP-online",
-                    "DisplayName": "LP-online",
-                    "Children": [
-                      {
-                        "Type": "/subscriptions",
-                        "Id": "/subscriptions/44025cc7-588a-46ec-b579-67083e9155dd",
-                        "Name": "44025cc7-588a-46ec-b579-67083e9155dd",
-                        "DisplayName": "Spoke",
-                        "Children": null
-                      }
-                    ]
-                  },
-                  {
-                    "Type": "/providers/Microsoft.Management/managementGroups",
-                    "Id": "/providers/Microsoft.Management/managementGroups/LP-corp",
-                    "Name": "LP-corp",
-                    "DisplayName": "LP-corp",
-                    "Children": null
-                  }
-                ]
-              },
-              {
-                "Type": "/providers/Microsoft.Management/managementGroups",
-                "Id": "/providers/Microsoft.Management/managementGroups/LP-platform",
-                "Name": "LP-platform",
-                "DisplayName": "LP-platform",
-                "Children": [
-                  {
-                    "Type": "/providers/Microsoft.Management/managementGroups",
-                    "Id": "/providers/Microsoft.Management/managementGroups/LP-connectivity",
-                    "Name": "LP-connectivity",
-                    "DisplayName": "LP-connectivity",
-                    "Children": [
-                      {
-                        "Type": "/subscriptions",
-                        "Id": "/subscriptions/c8a91935-3b55-4726-b4eb-6ee720fc0fac",
-                        "Name": "c8a91935-3b55-4726-b4eb-6ee720fc0fac",
-                        "DisplayName": "HUB",
-                        "Children": null
-                      }
-                    ]
-                  },
-                  {
-                    "Type": "/providers/Microsoft.Management/managementGroups",
-                    "Id": "/providers/Microsoft.Management/managementGroups/LP-management",
-                    "Name": "LP-management",
-                    "DisplayName": "LP-management",
-                    "Children": [
-                      {
-                        "Type": "/subscriptions",
-                        "Id": "/subscriptions/04843a72-829a-43b7-90f5-ded62bfa791e",
-                        "Name": "04843a72-829a-43b7-90f5-ded62bfa791e",
-                        "DisplayName": "Visual Studio Enterprise",
-                        "Children": null
-                      }
-                    ]
-                  },
-                  {
-                    "Type": "/providers/Microsoft.Management/managementGroups",
-                    "Id": "/providers/Microsoft.Management/managementGroups/LP-identity",
-                    "Name": "LP-identity",
-                    "DisplayName": "LP-identity",
-                    "Children": null
-                  }
-                ]
-              }
-            ]
+            "Children": null
           },
           {
             "Type": "/subscriptions",
@@ -119,14 +29,7 @@
             "DisplayName": "Orbit-Konto-Azure",
             "Children": null
           }
-        ],
-        "properties": {
-          "policyDefinitions": [],
-          "policySetDefinitions": [],
-          "policyAssignments": [],
-          "roleDefinitions": [],
-          "roleAssignments": []
-        }
+        ]
       }
     }
   }

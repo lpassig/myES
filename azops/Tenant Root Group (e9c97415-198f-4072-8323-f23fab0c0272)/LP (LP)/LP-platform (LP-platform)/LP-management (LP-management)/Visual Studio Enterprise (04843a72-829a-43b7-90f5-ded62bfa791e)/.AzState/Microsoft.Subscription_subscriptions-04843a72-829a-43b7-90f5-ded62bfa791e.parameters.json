@@ -8,14 +8,7 @@
         "Id": "/subscriptions/04843a72-829a-43b7-90f5-ded62bfa791e",
         "Name": "04843a72-829a-43b7-90f5-ded62bfa791e",
         "DisplayName": "Visual Studio Enterprise",
-        "Children": null,
-        "properties": {
-          "policyDefinitions": [],
-          "policySetDefinitions": [],
-          "policyAssignments": [],
-          "roleDefinitions": [],
-          "roleAssignments": []
-        }
+        "Children": null
       }
     }
   }

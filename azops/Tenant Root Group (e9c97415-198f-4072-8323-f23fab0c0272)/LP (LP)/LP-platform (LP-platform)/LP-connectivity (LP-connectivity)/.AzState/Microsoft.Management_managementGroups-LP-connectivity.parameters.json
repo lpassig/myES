@@ -9,8 +9,8 @@
         "Name": "LP-connectivity",
         "TenantId": "e9c97415-198f-4072-8323-f23fab0c0272",
         "DisplayName": "LP-connectivity",
-        "UpdatedTime": "0001-01-01T00:00:00Z",
-        "UpdatedBy": null,
+        "UpdatedTime": "2020-10-28T08:26:47.4781636Z",
+        "UpdatedBy": "c7388829-c7f4-4813-a90f-e457716b4634",
         "ParentId": "/providers/Microsoft.Management/managementGroups/LP-platform",
         "ParentName": "LP-platform",
         "ParentDisplayName": "LP-platform",
@@ -22,14 +22,7 @@
             "DisplayName": "HUB",
             "Children": null
           }
-        ],
-        "properties": {
-          "policyDefinitions": [],
-          "policySetDefinitions": [],
-          "policyAssignments": [],
-          "roleDefinitions": [],
-          "roleAssignments": []
-        }
+        ]
       }
     }
   }
