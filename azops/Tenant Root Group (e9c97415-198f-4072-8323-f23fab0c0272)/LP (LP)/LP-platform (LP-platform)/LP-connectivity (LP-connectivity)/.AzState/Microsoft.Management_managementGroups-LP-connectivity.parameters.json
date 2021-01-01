@@ -14,15 +14,7 @@
         "ParentId": "/providers/Microsoft.Management/managementGroups/LP-platform",
         "ParentName": "LP-platform",
         "ParentDisplayName": "LP-platform",
-        "Children": [
-          {
-            "Type": "/subscriptions",
-            "Id": "/subscriptions/c8a91935-3b55-4726-b4eb-6ee720fc0fac",
-            "Name": "c8a91935-3b55-4726-b4eb-6ee720fc0fac",
-            "DisplayName": "HUB",
-            "Children": null
-          }
-        ]
+        "Children": null
       }
     }
   }
